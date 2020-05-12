@@ -135,7 +135,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000012370163554}
-  m_LocalRotation: {x: -0, y: -0.964541, z: -0, w: 0.26393306}
+  m_LocalRotation: {x: 0, y: 0.9645414, z: -0, w: -0.26393187}
   m_LocalPosition: {x: -5, y: -0.3, z: 20.02}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children:
@@ -145,7 +145,7 @@ Transform:
   - {fileID: 4724617582708678}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 210.64899, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 210.607, z: 0}
 --- !u!114 &114000011633586022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,7 +483,7 @@ AudioSource:
   m_GameObject: {fileID: 1000012370163554}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -5989329600499828916, guid: 252f7763b3570844aa8d209f00fab88f,
+  OutputAudioMixerGroup: {fileID: 2517967985235475237, guid: 252f7763b3570844aa8d209f00fab88f,
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
@@ -2565,11 +2565,13 @@ MonoBehaviour:
   StartChargeEvent:
     idInternal: 1817926999
     valueGuidInternal: 48e913ca8afc864ca933feb51278a585
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 71631c7a6d1f17c4cbd8e5fb60fe5dc9,
+      type: 2}
   EndChargeEvent:
     idInternal: 547945861
     valueGuidInternal: b595a0ac87736b4cac03d2462587900a
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: de583d6a057a0194abc32c25a263563b,
+      type: 2}
   lineRenderer: {fileID: 120399247484619230}
   refreshSpeed: 0.02
   yOffsets:
