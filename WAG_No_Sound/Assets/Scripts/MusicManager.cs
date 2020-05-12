@@ -17,6 +17,10 @@ public class MusicManager : MonoBehaviour
     }
 
     [HideInInspector]
+    bool is_day = true;
+    bool actual_time_day = true;
+
+    [HideInInspector]
     public Music_Zone actual_zone = Music_Zone.NONE;
 
     Music_Zone zone_sounding = Music_Zone.NONE;
@@ -45,7 +49,8 @@ public class MusicManager : MonoBehaviour
         volcanic_day = (AudioClip) Resources.Load("Music_Volcanic_Mix");
         desert_day = (AudioClip) Resources.Load("Music_Desert_Mix");
 
-        village_night = (AudioClip) Resources.Load("Music_NightTime_Woodlands");
+        village_night = (AudioClip)Resources.Load("Flute");
+        forest_night = (AudioClip) Resources.Load("Music_NightTime_Woodlands");
 
         audioSource = GetComponent<AudioSource>();
     }
@@ -53,14 +58,24 @@ public class MusicManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (actual_zone != zone_sounding) 
+        if (actual_zone != zone_sounding || is_day != actual_time_day)  
         {
+            actual_time_day = is_day;
             zone_sounding = actual_zone;
+
             switch (zone_sounding)
             {
                 case Music_Zone.VILLAGE:
                     {
-                        audioSource.clip = village_day;
+                        if (is_day)
+                        {
+                            audioSource.clip = village_day;
+                        }
+                        else
+                        {
+                            audioSource.clip = village_night;
+                        }
+
                         break;
                     }
                 case Music_Zone.CAVE:
@@ -70,7 +85,14 @@ public class MusicManager : MonoBehaviour
                     }
                 case Music_Zone.FOREST:
                     {
-                        audioSource.clip = forest_day;
+                        if (is_day)
+                        {
+                            audioSource.clip = forest_day;
+                        }
+                        else
+                        {
+                            audioSource.clip = forest_night;
+                        }
                         break;
                     }
                 case Music_Zone.VOLCANIC:
@@ -86,5 +108,10 @@ public class MusicManager : MonoBehaviour
             }
            audioSource.Play();
         }
+    }
+
+    public void SetDayTime(bool is_day)
+    {
+        this.is_day = is_day;
     }
 }

@@ -72,6 +72,8 @@ public class GameManager : Singleton<GameManager>
     [HideInInspector]
     public GameObject MusicGameObject;
 
+    MusicManager music_manager;
+
     [Header("CHEATS")]
     public bool BigHeadMode;
     public bool AIPaused;
@@ -115,6 +117,8 @@ public class GameManager : Singleton<GameManager>
         MusicGameObject = GameObject.Find("Ak_PlayMusic");
         DayNightCall += dayNightPush;
         MusicStart_Region.SetValue();
+
+        music_manager = GameObject.Find("AUX Environments").GetComponent<MusicManager>(); 
 
         AkCallbackType CallbackType = AkCallbackType.AK_MusicSyncUserCue;
         MusicEvent.Post(gameObject, (uint)CallbackType, CallBackFunction);
@@ -165,6 +169,7 @@ public class GameManager : Singleton<GameManager>
         {
             DayNightCall(dayTime);
             lastDayTime = dayTime;
+            music_manager.SetDayTime(dayTime);
         }
     }
 
