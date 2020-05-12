@@ -27,9 +27,9 @@ public class CreditsSequence : MonoBehaviour
     [Header("Other")]
     public GameObject FadeCanvas;
 
-    public AK.Wwise.Event MusicEvent;
-    public AK.Wwise.Bank SoundBank;
+    AudioSource audioSource;
 
+    public AK.Wwise.Event MusicEvent;
     #region private variables
     private Animator canvAnim;
     private PlayerCamera camScript;
@@ -38,7 +38,6 @@ public class CreditsSequence : MonoBehaviour
 
     private void Awake()
     {
-        SoundBank.Load(false, false);
     }
 
     void Start()
@@ -55,7 +54,8 @@ public class CreditsSequence : MonoBehaviour
         canvAnim = FadeCanvas.GetComponent<Animator>();
 
         StartCoroutine(CreditsCameraSequence());
-        MusicEvent.Post(gameObject);
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     IEnumerator CreditsCameraSequence()
@@ -114,11 +114,23 @@ public class CreditsSequence : MonoBehaviour
     {
         canvAnim.speed = 5f;
         canvAnim.SetTrigger(fadeOutHash);
+
+        // To DO: Start Fade
+        StartCoroutine(audio_waiting_to_end());
     }
 
     private void OnDestroy()
     {
-        MusicEvent.Stop(gameObject);
         InputManager.OnMenuDown -= SkipCredits;
+    }
+
+    IEnumerator audio_waiting_to_end()
+    {
+        while (audioSource.volume > 0.0f)
+        {
+            audioSource.volume -= audioSource.volume * (Time.deltaTime);
+            Debug.Log("Volume: " + audioSource.volume.ToString());
+            yield return new WaitForEndOfFrame();
+        }
     }
 }
