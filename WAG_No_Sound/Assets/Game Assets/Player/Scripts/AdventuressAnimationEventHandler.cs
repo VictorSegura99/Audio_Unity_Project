@@ -24,6 +24,16 @@ public class AdventuressAnimationEventHandler : MonoBehaviour
     private PlayerFoot foot_L;
     private PlayerFoot foot_R;
 
+    // audio in unity
+    //[Header("Unity Audio Exercise InEngine")]
+
+
+    private void Start()
+    {
+        //m_audio = GetComponents<AudioSource>();
+    }
+
+
     #region private variables
     private bool hasPausedMovement;
     private readonly int canShootMagicHash = Animator.StringToHash("CanShootMagic");
@@ -49,6 +59,7 @@ public class AdventuressAnimationEventHandler : MonoBehaviour
         {
             print("Right foot missing");
         }
+
     }
 
 

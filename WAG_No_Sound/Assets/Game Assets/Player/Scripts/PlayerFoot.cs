@@ -17,6 +17,16 @@ public class PlayerFoot : MonoBehaviour
     private bool inWater;
     #endregion
 
+    [Header("Unity Audio Exercise InEngine")]
+    private AudioSource[] m_audio;
+    private PlayerAudioClipsManager clipsManager;
+
+    private void Start()
+    {
+        m_audio = GetComponents<AudioSource>();
+        clipsManager = GetComponentInParent<PlayerAudioClipsManager>();
+    }
+
     public void PlayFootstepSound()
     {
         if (!inWater)
@@ -25,11 +35,17 @@ public class PlayerFoot : MonoBehaviour
         }
 
         FootstepSound.Post(gameObject);
+
+        // audio in engine
+        m_audio[0].PlayOneShot(clipsManager.GetFootStepClip(materialChecker.GetMaterial().Name));
+
+        if(inWater)
+            m_audio[1].PlayOneShot(clipsManager.GetFootStepClip("Surface_Type / Water"));
     }
 
     public void EnterWaterZone()
     {
-        inWater = true;
+      inWater = true;
     }
 
     public void ExitWaterZone()
