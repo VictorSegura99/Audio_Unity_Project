@@ -422,6 +422,7 @@ GameObject:
   - component: {fileID: 114079635815798764}
   - component: {fileID: 82596721939327848}
   - component: {fileID: 949858731}
+  - component: {fileID: 949858732}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -864,6 +865,18 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 08813927ce7894643bf8991f6f6347d5, type: 3}
   - {fileID: 8300000, guid: c332e709b984830498520d2df99eb7a7, type: 3}
   - {fileID: 8300000, guid: ca2e4df288676ea4798f4eb609989f00, type: 3}
+--- !u!114 &949858732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011631600178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 345e2eebcd1d6744ab73b2deae5cfe71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000011699985852
 GameObject:
   m_ObjectHideFlags: 0
@@ -6472,7 +6485,8 @@ AudioSource:
   m_GameObject: {fileID: 1000012725502494}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -6756117980034835867, guid: 252f7763b3570844aa8d209f00fab88f,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -6568,7 +6582,8 @@ AudioSource:
   m_GameObject: {fileID: 1000012725502494}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -6756117980034835867, guid: 252f7763b3570844aa8d209f00fab88f,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -7410,7 +7425,8 @@ AudioSource:
   m_GameObject: {fileID: 1000013457670882}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -6756117980034835867, guid: 252f7763b3570844aa8d209f00fab88f,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -7506,7 +7522,8 @@ AudioSource:
   m_GameObject: {fileID: 1000013457670882}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -6756117980034835867, guid: 252f7763b3570844aa8d209f00fab88f,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
