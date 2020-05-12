@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
 
-public class AudioAmbience : MonoBehaviour
+public class AudioAmbient : MonoBehaviour
 {
-    // Start is called before the first frame update
     public AudioClip audioClip;
+    public float minDistance = 0.8f;
+    public float maxDistance = 2.9f;
+
     private AudioSource audioSource;
     private AudioManager audioManager;
     void Start()
@@ -16,6 +17,10 @@ public class AudioAmbience : MonoBehaviour
         audioSource.outputAudioMixerGroup = audioManager.sfxGroup;
         audioSource.clip = audioClip;
         audioSource.loop = true;
-        audioSource.Play();
+        audioSource.minDistance = minDistance;
+        audioSource.maxDistance = maxDistance;
+        audioSource.spatialBlend = 1.0f;
+        audioSource.volume = 0.8f;
+        audioSource.PlayDelayed(Random.Range(0.0f, 4.0f));
     }
 }
