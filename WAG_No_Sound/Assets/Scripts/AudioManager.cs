@@ -1,18 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public AudioMixer audioMixer;
+    [HideInInspector]public AudioMixerGroup masterGroup;
+    [HideInInspector]public AudioMixerGroup sfxGroup;
+    [HideInInspector]public AudioMixerGroup musicGroup;
+    [HideInInspector]public AudioMixerSnapshot indoorSnapshot;
+    [HideInInspector]public AudioMixerSnapshot outdoorSnapshot;
 
-    // Update is called once per frame
-    void Update()
+    void Awake()
     {
-        
+        DontDestroyOnLoad(this.gameObject);
+        sfxGroup = audioMixer.FindMatchingGroups("Sfx")[0];
+        indoorSnapshot = audioMixer.FindSnapshot("Indoor");
+        outdoorSnapshot = audioMixer.FindSnapshot("Outdoor");
+    }
+    public void PlayerIndoor() // When player enter ReverbZone
+    {
+        indoorSnapshot.TransitionTo(1.0f);
+    }
+    public void PlayerOutdoor() // When player exit ReverbZone
+    {
+        outdoorSnapshot.TransitionTo(1.0f);
     }
 }
