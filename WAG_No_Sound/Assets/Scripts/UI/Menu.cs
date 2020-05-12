@@ -20,6 +20,9 @@ public class Menu : MonoBehaviour
     public AK.Wwise.Event MenuOpenSound;
     public AK.Wwise.Event MenuCloseSound;
 
+    public AudioClip menuOpenClip;
+    public AudioClip menuCloseClip;
+
     [Header("Other")]
     public AnimatedObjectActiveHandler ControlsBox;
     public AnimatedObjectActiveHandler QuestBox;
@@ -54,7 +57,8 @@ public class Menu : MonoBehaviour
             isOpen = menuOpen;
             if (menuOpen)
             {
-                MenuOpenSound.Post(gameObject);
+                GetComponent<AudioSource>().clip = menuOpenClip;
+                GetComponent<AudioSource>().Play();
                 MenuRTPC.SetGlobalValue(100f);
                 GameManager.Instance.gameSpeedHandler.PauseGameSpeed(gameObject.GetInstanceID());
                 GameManager.Instance.BlurCam();
@@ -67,7 +71,8 @@ public class Menu : MonoBehaviour
             }
             else
             {
-                MenuCloseSound.Post(gameObject);
+                GetComponent<AudioSource>().clip = menuCloseClip;
+                GetComponent<AudioSource>().Play();
                 MenuRTPC.SetGlobalValue(0f);
                 GameManager.Instance.gameSpeedHandler.UnPauseGameSpeed(gameObject.GetInstanceID());
                 GameManager.Instance.UnBlurCam();

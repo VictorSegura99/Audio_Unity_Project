@@ -21,6 +21,7 @@ namespace QuestSystem
 
         public AK.Wwise.RTPC QuestlineProgressionRTPC;
         public AK.Wwise.Event QuestlineCompleteEvent;
+        public AudioClip questComplete;
         //public AK.Wwise.Event QuestlineAdvancedEvent;
 
         public bool StartQuestLineOnStart = true;
@@ -86,12 +87,14 @@ namespace QuestSystem
             currentQuestIdx++;
             if (currentQuestIdx < Quests.Count)
             {
-                QuestlineCompleteEvent.Post(gameObject);
+                GetComponent<AudioSource>().clip = questComplete;
+                GetComponent<AudioSource>().Play();
                 InitializeQuest(currentQuestIdx);
             }
             else
             {
-                QuestlineCompleteEvent.Post(gameObject);
+                GetComponent<AudioSource>().clip = questComplete;
+                GetComponent<AudioSource>().Play();
                 if (OnQuestlineComplete != null)
                 {
                     OnQuestlineComplete(this);
