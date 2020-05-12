@@ -815,6 +815,55 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 9be222ba15ea75e4bac4632a15d1f80b, type: 3}
   - {fileID: 8300000, guid: 3e9692418298bbb4381255be50e605d7, type: 3}
   - {fileID: 8300000, guid: ef781f77384384a47a9fb59b55965b55, type: 3}
+  m_ClipFootStepsDirtRun:
+  - {fileID: 8300000, guid: e1299abdd37203e47bd276f3ccaa14cf, type: 3}
+  - {fileID: 8300000, guid: 68c61250deeed4148b4bf3d823a2be38, type: 3}
+  - {fileID: 8300000, guid: deb71cf127b3a30488ce6dc3832c7d00, type: 3}
+  - {fileID: 8300000, guid: 8177a664a9d0e6b498fa46cefc7325f4, type: 3}
+  - {fileID: 8300000, guid: 6f05fdfbed2dd7d4299e7c7d21c4450e, type: 3}
+  - {fileID: 8300000, guid: 0f45e8bc30a778247ba29de28f936676, type: 3}
+  m_ClipFootStepsGrassRun:
+  - {fileID: 8300000, guid: 6c7bbb8c457c94d40b99150d0745b5c0, type: 3}
+  - {fileID: 8300000, guid: f09b25ee90a7a9c4790a8a66433e2730, type: 3}
+  - {fileID: 8300000, guid: 9cff279b952d0e14087772a7756ceac5, type: 3}
+  - {fileID: 8300000, guid: 625507bc2aa3d1241b999d73398f4f98, type: 3}
+  - {fileID: 8300000, guid: ee6d4af6bfdd8794ab7fa024abd2326a, type: 3}
+  - {fileID: 8300000, guid: 906f4c79572d6524c988ac23d25af51e, type: 3}
+  m_ClipFootStepsRubbleRun:
+  - {fileID: 8300000, guid: 0a2244233d561524cb4f9a6c91e345d0, type: 3}
+  - {fileID: 8300000, guid: 9d87e5bdf36fffa4a9922759739bb11d, type: 3}
+  - {fileID: 8300000, guid: b6628de3a13e56343bc1e8d13903808b, type: 3}
+  - {fileID: 8300000, guid: 9bc66245171cf3844b625e4f6ea9cf58, type: 3}
+  - {fileID: 8300000, guid: 4278c8b1ac95fc240bfc822669235b28, type: 3}
+  - {fileID: 8300000, guid: 296f9546a1a8a74419cdb815fefebb27, type: 3}
+  m_ClipFootStepsSandRun:
+  - {fileID: 8300000, guid: 9b339db91d876b34082ffe860c19fbec, type: 3}
+  - {fileID: 8300000, guid: e064e913f26233e4c91a0c7d2bffd9cf, type: 3}
+  - {fileID: 8300000, guid: cdc27f31d0c5ec6499dfd9443fd0c608, type: 3}
+  - {fileID: 8300000, guid: b5413d45046e0da439ccb38c277ace1a, type: 3}
+  - {fileID: 8300000, guid: d5609b4b6b79b3241b28d2c103fceaef, type: 3}
+  - {fileID: 8300000, guid: 0d6e9ef8d5399ee409a094d4b2f69789, type: 3}
+  m_ClipFootStepsStoneRun:
+  - {fileID: 8300000, guid: 43f10bd4ae2679f458c98d92dd127e53, type: 3}
+  - {fileID: 8300000, guid: 1bbeeefd30e1b9b46bc492fffe77f64d, type: 3}
+  - {fileID: 8300000, guid: 3d0995f06fff6d145be2b5c147658001, type: 3}
+  - {fileID: 8300000, guid: 7a41e67cdebd90f48b2a170a408427d3, type: 3}
+  - {fileID: 8300000, guid: 7ccffdf17430e72458fc2c2cbbb6397b, type: 3}
+  - {fileID: 8300000, guid: 20905087fc058544a9f2b1cad0f4b279, type: 3}
+  m_ClipFootStepsWaterRun:
+  - {fileID: 8300000, guid: 5d666d4fd77ccd5428d5a7e13bd746a4, type: 3}
+  - {fileID: 8300000, guid: 219b67cd44a824f429dd911ac969cd23, type: 3}
+  - {fileID: 8300000, guid: 8117107b91b81c147b1a05ad3171393c, type: 3}
+  - {fileID: 8300000, guid: 428e31885f812674c91038443d8ab1e5, type: 3}
+  - {fileID: 8300000, guid: fc0f63669fc5c514a87506f12099db6a, type: 3}
+  - {fileID: 8300000, guid: 3c661453990e1194a9078b10038f6e78, type: 3}
+  m_ClipFootStepsWoodRun:
+  - {fileID: 8300000, guid: 4ad2ea925c14d5745b34b020887fd007, type: 3}
+  - {fileID: 8300000, guid: 5bdfdda29f3e1714394bd081148ee897, type: 3}
+  - {fileID: 8300000, guid: b9694270e0582f94bad458ed806b7114, type: 3}
+  - {fileID: 8300000, guid: 08813927ce7894643bf8991f6f6347d5, type: 3}
+  - {fileID: 8300000, guid: c332e709b984830498520d2df99eb7a7, type: 3}
+  - {fileID: 8300000, guid: ca2e4df288676ea4798f4eb609989f00, type: 3}
 --- !u!1 &1000011699985852
 GameObject:
   m_ObjectHideFlags: 0

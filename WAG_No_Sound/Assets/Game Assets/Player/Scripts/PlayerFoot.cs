@@ -36,11 +36,16 @@ public class PlayerFoot : MonoBehaviour
 
         FootstepSound.Post(gameObject);
 
-        // audio in engine
-        m_audio[0].PlayOneShot(clipsManager.GetFootStepClip(materialChecker.GetMaterial().Name));
+        // * ----------- audio in engine ------
+        float vol = 1.0f;
+        AudioClip clip = clipsManager.GetFootStepClip(materialChecker.GetMaterial().Name, out vol);
+        m_audio[0].PlayOneShot(clip, vol); 
 
-        if(inWater)
-            m_audio[1].PlayOneShot(clipsManager.GetFootStepClip("Surface_Type / Water"));
+        if(inWater) {
+            clip = clipsManager.GetFootStepClip("Surface_Type / Water", out vol);
+            m_audio[1].PlayOneShot(clip, vol);
+        }
+        // * -----------------------------------
     }
 
     public void EnterWaterZone()

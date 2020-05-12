@@ -245,4 +245,9 @@ public class PlayerMovement : MonoBehaviour
         InputManager.OnSprint -= Sprint;
         InputManager.OnSprintUp -= StopSprint;
     }
+
+    public float GetSpeed()
+    {
+        return (movementVector.magnitude * (maxSpeed + sprintAdd));
+    }
 }
