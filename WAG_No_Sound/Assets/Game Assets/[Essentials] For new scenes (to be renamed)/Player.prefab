@@ -684,7 +684,7 @@ AudioSource:
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
+  BypassEffects: 1
   BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:
@@ -865,6 +865,64 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 08813927ce7894643bf8991f6f6347d5, type: 3}
   - {fileID: 8300000, guid: c332e709b984830498520d2df99eb7a7, type: 3}
   - {fileID: 8300000, guid: ca2e4df288676ea4798f4eb609989f00, type: 3}
+  m_WeaponDagger:
+  - {fileID: 8300000, guid: 0e6063243ca4700438634773337d3be2, type: 3}
+  - {fileID: 8300000, guid: 836dd7a563377414e9cbb4aa4c48d664, type: 3}
+  - {fileID: 8300000, guid: dfdd6e7dfea8059468cfee127be121ca, type: 3}
+  - {fileID: 8300000, guid: ab076cbbb4b3ce745a8941ad281493d3, type: 3}
+  - {fileID: 8300000, guid: ac239815909c8024dbb77967a5588b2f, type: 3}
+  - {fileID: 8300000, guid: 96e8a57b27bcb8c48b5042d0170bb8dc, type: 3}
+  - {fileID: 8300000, guid: baba91e0df4caa24495e9ea73aefda27, type: 3}
+  m_WeaponSword:
+  - {fileID: 8300000, guid: 43df378629bfde643ab84952771d4036, type: 3}
+  - {fileID: 8300000, guid: e33f60becd788ce41b0ff83fbff7c85f, type: 3}
+  - {fileID: 8300000, guid: 55ec1b7b752c60c4099e1aae0a4876a5, type: 3}
+  - {fileID: 8300000, guid: 2e45963b83823ef458560ae6c6a3b4dc, type: 3}
+  - {fileID: 8300000, guid: 4b4a5f64baf499243a31a4f059af6953, type: 3}
+  - {fileID: 8300000, guid: 307755cff7a98b841917fb7e7d836425, type: 3}
+  - {fileID: 8300000, guid: cc9109fa2bad86f47bd94e1889caf04f, type: 3}
+  m_WeaponAxe:
+  - {fileID: 8300000, guid: 00f7962cb7abe4844af7e9c65be5e256, type: 3}
+  - {fileID: 8300000, guid: 9f8c9cb84f34c2344944107abc0038e2, type: 3}
+  - {fileID: 8300000, guid: dd945d0664870fa489c0bcbf60ab5f23, type: 3}
+  - {fileID: 8300000, guid: bedf6238c49d80546b8ba37076bef4ff, type: 3}
+  - {fileID: 8300000, guid: 4b4a5f64baf499243a31a4f059af6953, type: 3}
+  - {fileID: 8300000, guid: b65315fb86f7cbf4da3d2dfacf672acc, type: 3}
+  - {fileID: 8300000, guid: 1b3562bf00323494589fb4eed34a873c, type: 3}
+  m_WeaponPickAxe:
+  - {fileID: 8300000, guid: 00f7962cb7abe4844af7e9c65be5e256, type: 3}
+  - {fileID: 8300000, guid: 9f8c9cb84f34c2344944107abc0038e2, type: 3}
+  - {fileID: 8300000, guid: dd945d0664870fa489c0bcbf60ab5f23, type: 3}
+  - {fileID: 8300000, guid: bedf6238c49d80546b8ba37076bef4ff, type: 3}
+  - {fileID: 8300000, guid: 4b4a5f64baf499243a31a4f059af6953, type: 3}
+  - {fileID: 8300000, guid: 923004adbc390834c9aa81ac7cca899c, type: 3}
+  - {fileID: 8300000, guid: 2a84f4dbdde3b9b4b9745b71e5e53df4, type: 3}
+  m_WeaponHammer:
+  - {fileID: 8300000, guid: 43df378629bfde643ab84952771d4036, type: 3}
+  - {fileID: 8300000, guid: e33f60becd788ce41b0ff83fbff7c85f, type: 3}
+  - {fileID: 8300000, guid: 55ec1b7b752c60c4099e1aae0a4876a5, type: 3}
+  - {fileID: 8300000, guid: 2e45963b83823ef458560ae6c6a3b4dc, type: 3}
+  - {fileID: 8300000, guid: 4b4a5f64baf499243a31a4f059af6953, type: 3}
+  - {fileID: 8300000, guid: 44315d223bee3b3449c3200950b91866, type: 3}
+  - {fileID: 8300000, guid: e7d3e54bf871681409002e24f8c5c783, type: 3}
+  m_EnemyEvilSpitPlantHurt:
+  - {fileID: 8300000, guid: 75fddb09a75c47d44adb7baccd536d5d, type: 3}
+  - {fileID: 8300000, guid: 5dcfd8e013d8f2d46a59765016db5c7b, type: 3}
+  - {fileID: 8300000, guid: be176c5675aedfb44a9581f13dca844a, type: 3}
+  - {fileID: 8300000, guid: 48638d1563e45e949966f215dd9923c7, type: 3}
+  - {fileID: 8300000, guid: 42a5f34efe2621942957f7d76893538e, type: 3}
+  - {fileID: 8300000, guid: f40572121089f4342b9c32bf45083af7, type: 3}
+  m_EnemyEvilHeadHurt:
+  - {fileID: 8300000, guid: 5e6d4b40aa45af541abdaa7dfd6e85ed, type: 3}
+  - {fileID: 8300000, guid: 8b3eb2af04ebf214ebc8b6b1085f62bd, type: 3}
+  - {fileID: 8300000, guid: 815ce04325d3cb448b4c5d112f90683e, type: 3}
+  m_EnemyEvilCrawlerHurt:
+  - {fileID: 8300000, guid: 8ab5c2ea7d8e66d4ba2fcc79cbedcc95, type: 3}
+  - {fileID: 8300000, guid: 19ce1c3b0a058074793b6b30cc272c4c, type: 3}
+  - {fileID: 8300000, guid: 6ac8a94db174be94196317da7c4f0237, type: 3}
+  - {fileID: 8300000, guid: 682dc5267abdc834699b09b2c3c12aaf, type: 3}
+  - {fileID: 8300000, guid: 3abb7c249f9a01a4a8bf4c802e898e9e, type: 3}
+  - {fileID: 8300000, guid: e5b1372d1cf35a548b420c29391e12f4, type: 3}
 --- !u!114 &949858732
 MonoBehaviour:
   m_ObjectHideFlags: 0

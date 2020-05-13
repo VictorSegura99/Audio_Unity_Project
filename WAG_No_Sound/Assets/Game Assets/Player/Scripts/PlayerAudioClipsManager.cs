@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+//using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAudioClipsManager : MonoBehaviour
@@ -23,17 +24,101 @@ public class PlayerAudioClipsManager : MonoBehaviour
     [SerializeField] private AudioClip[] m_ClipFootStepsWaterRun;
     [SerializeField] private AudioClip[] m_ClipFootStepsWoodRun;
 
+    // WEAPONS
+    [SerializeField] private AudioClip[] m_WeaponDagger;
+    [SerializeField] private AudioClip[] m_WeaponSword;
+    [SerializeField] private AudioClip[] m_WeaponAxe;
+    [SerializeField] private AudioClip[] m_WeaponPickAxe;
+    [SerializeField] private AudioClip[] m_WeaponHammer;
+
+    // GENERAL IMPACT ON ENEMIES
+    [SerializeField] private AudioClip[] m_EnemyEvilSpitPlantHurt;
+    [SerializeField] private AudioClip[] m_EnemyEvilHeadHurt;
+    [SerializeField] private AudioClip[] m_EnemyEvilCrawlerHurt;
+
+    //[SerializeField] private AudioClip[][] m_WeaponClips;
+    private Dictionary<WeaponTypes, Dictionary<string, AudioClip>> weaponClips;
+
+    // audio source from player root
+    //private AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
     {
         m_playerMovement = GetComponent<PlayerMovement>();
+      
+        // create dictionary entries
+        weaponClips = new Dictionary<WeaponTypes, Dictionary<string, AudioClip>>();
+        // DAGGER
+        weaponClips[WeaponTypes.Dagger] = new Dictionary<string, AudioClip>();
+        weaponClips[WeaponTypes.Dagger]["Surface_Type / Dirt"] = m_WeaponDagger[0];
+        weaponClips[WeaponTypes.Dagger]["Surface_Type / Grass"] = m_WeaponDagger[1];
+        weaponClips[WeaponTypes.Dagger]["Surface_Type / Leaves"] = m_WeaponDagger[2];
+        weaponClips[WeaponTypes.Dagger]["Surface_Type / Stone"] = m_WeaponDagger[3];
+        weaponClips[WeaponTypes.Dagger]["Surface_Type / Wood"] = m_WeaponDagger[4];
+        weaponClips[WeaponTypes.Dagger]["Surface_Type / Barrel"] = m_WeaponDagger[5]; // TODO: barrel and crate maybe additive and not exclusive
+        weaponClips[WeaponTypes.Dagger]["Surface_Type / Crate"] = m_WeaponDagger[6];
+        // SWORD
+        weaponClips[WeaponTypes.Sword] = new Dictionary<string, AudioClip>();
+        weaponClips[WeaponTypes.Sword]["Surface_Type / Dirt"] =     m_WeaponSword[0];
+        weaponClips[WeaponTypes.Sword]["Surface_Type / Grass"] =    m_WeaponSword[1];
+        weaponClips[WeaponTypes.Sword]["Surface_Type / Leaves"] =   m_WeaponSword[2];
+        weaponClips[WeaponTypes.Sword]["Surface_Type / Stone"] =    m_WeaponSword[3];
+        weaponClips[WeaponTypes.Sword]["Surface_Type / Wood"] =     m_WeaponSword[4];
+        weaponClips[WeaponTypes.Sword]["Surface_Type / Barrel"] =   m_WeaponSword[5]; 
+        weaponClips[WeaponTypes.Sword]["Surface_Type / Crate"] =    m_WeaponSword[6];
+        // AXE
+        weaponClips[WeaponTypes.Axe] = new Dictionary<string, AudioClip>();
+        weaponClips[WeaponTypes.Axe]["Surface_Type / Dirt"] =   m_WeaponAxe[0];
+        weaponClips[WeaponTypes.Axe]["Surface_Type / Grass"] =  m_WeaponAxe[1];
+        weaponClips[WeaponTypes.Axe]["Surface_Type / Leaves"] = m_WeaponAxe[2];
+        weaponClips[WeaponTypes.Axe]["Surface_Type / Stone"] =  m_WeaponAxe[3];
+        weaponClips[WeaponTypes.Axe]["Surface_Type / Wood"] =   m_WeaponAxe[4];
+        weaponClips[WeaponTypes.Axe]["Surface_Type / Barrel"] = m_WeaponAxe[5]; 
+        weaponClips[WeaponTypes.Axe]["Surface_Type / Crate"] =  m_WeaponAxe[6];
+        // PICKAXE
+        weaponClips[WeaponTypes.PickAxe] = new Dictionary<string, AudioClip>();
+        weaponClips[WeaponTypes.PickAxe]["Surface_Type / Dirt"] =   m_WeaponPickAxe[0];
+        weaponClips[WeaponTypes.PickAxe]["Surface_Type / Grass"] =  m_WeaponPickAxe[1];
+        weaponClips[WeaponTypes.PickAxe]["Surface_Type / Leaves"] = m_WeaponPickAxe[2];
+        weaponClips[WeaponTypes.PickAxe]["Surface_Type / Stone"] =  m_WeaponPickAxe[3];
+        weaponClips[WeaponTypes.PickAxe]["Surface_Type / Wood"] =   m_WeaponPickAxe[4];
+        weaponClips[WeaponTypes.PickAxe]["Surface_Type / Barrel"] = m_WeaponPickAxe[5]; 
+        weaponClips[WeaponTypes.PickAxe]["Surface_Type / Crate"] =  m_WeaponPickAxe[6];
+        // HAMMER
+        weaponClips[WeaponTypes.Hammer] = new Dictionary<string, AudioClip>();
+        weaponClips[WeaponTypes.Hammer]["Surface_Type / Dirt"] =    m_WeaponHammer[0];
+        weaponClips[WeaponTypes.Hammer]["Surface_Type / Grass"] =   m_WeaponHammer[1];
+        weaponClips[WeaponTypes.Hammer]["Surface_Type / Leaves"] =  m_WeaponHammer[2];
+        weaponClips[WeaponTypes.Hammer]["Surface_Type / Stone"] =   m_WeaponHammer[3];
+        weaponClips[WeaponTypes.Hammer]["Surface_Type / Wood"] =    m_WeaponHammer[4];
+        weaponClips[WeaponTypes.Hammer]["Surface_Type / Barrel"] =  m_WeaponHammer[5];
+        weaponClips[WeaponTypes.Hammer]["Surface_Type / Crate"] =   m_WeaponHammer[6];
+
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public AudioClip GetWeaponImpact(string materialName, WeaponTypes weaponType)
+    {
+        Debug.Log(materialName + "," + weaponType);
+
+        // check impact on enemies first
+        switch (materialName)
+        {
+            case "Surface_Type / Enemy_EvilSpitPlant":
+                return m_EnemyEvilSpitPlantHurt[Random.Range(0, m_EnemyEvilSpitPlantHurt.Length)];
+            case "Surface_Type / Enemy_HeadBite":
+                return m_EnemyEvilHeadHurt[Random.Range(0, m_EnemyEvilHeadHurt.Length)];
+            case "Surface_Type / Enemy_EvilCrawler":
+                return m_EnemyEvilCrawlerHurt[Random.Range(0, m_EnemyEvilCrawlerHurt.Length)];
+        }
+
+        return weaponClips[weaponType][materialName];
     }
 
     public AudioClip GetFootStepClip(string materialName, out float out_volume)

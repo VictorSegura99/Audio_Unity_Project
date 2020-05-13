@@ -59,6 +59,10 @@ public class Weapon : MonoBehaviour, IInteractable
     public bool applyBonusDamage = false;
     #endregion
 
+    // UNITY EXERCISE
+    private PlayerAudioClipsManager audioManager;
+    private AudioSource m_audio;
+
     public void EnableHitbox()
     {
         //Reset list of already hit GameObjects (since this is a new swing)
@@ -105,6 +109,9 @@ public class Weapon : MonoBehaviour, IInteractable
         {
             Physics.IgnoreCollision(hitbox, PlayerManager.Instance.playerCollider);
         }
+
+        audioManager = FindObjectOfType<PlayerAudioClipsManager>();
+        m_audio = GetComponent<AudioSource>();
     }
 
     public void EquipWeapon()
@@ -193,11 +200,15 @@ public class Weapon : MonoBehaviour, IInteractable
                         if (thisSwitch != (uint)sm.material.Id)
                         {
                             sm.material.SetValue(transform.parent.gameObject); // Set Impact Material
-                                                                               //print("New Impact Material: "+ sm.gameObject.name);
+                                                                                //print("New Impact Material: "+ sm.gameObject.name);
                         }
                     }
 
                     SetAndPlayWeaponImpact(col.gameObject);
+                    // AUDIO UNITY EXERCISE ----------
+                    m_audio.PlayOneShot(audioManager.GetWeaponImpact(sm.material.Name, weaponType));
+                    // -------------------------------
+
                     GameManager.DamageObject(col.gameObject, attack);
 
                     GameObject hit = Instantiate(hitEffect, transform.position, Quaternion.identity) as GameObject; //TODO: Pool hit effects
@@ -236,7 +247,6 @@ public class Weapon : MonoBehaviour, IInteractable
         //WeaponTypeSwitch.SetValue(transform.parent.gameObject); // Weapon Type
         alreadyHitObjects.Add(HitObj);
         WeaponImpact.Post(transform.parent.gameObject);
-
     }
 
 }
