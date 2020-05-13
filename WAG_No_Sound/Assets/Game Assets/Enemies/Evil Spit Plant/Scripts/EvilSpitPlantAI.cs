@@ -29,6 +29,10 @@ public class EvilSpitPlantAI : Creature
     public AK.Wwise.Event Death_Headfall = new AK.Wwise.Event();
     public AK.Wwise.Event asdasdasfasda;
 
+    public AudioClip attack;
+    public AudioClip charge;
+    public AudioClip death;
+
     public override void OnSpotting()
     {
         base.OnSpotting();
@@ -58,7 +62,8 @@ public class EvilSpitPlantAI : Creature
     {
         if (targetOfNPC != null && !GameManager.Instance.AIPaused)
         {
-            AttackSound.Post(this.gameObject);
+            GetComponent<AudioSource>().clip = attack;
+            GetComponent<AudioSource>().Play();
 
             GameObject bullet = Instantiate(bulletPrefab, spitBulletSpawnPoint.transform.position, Quaternion.LookRotation(transform.forward)) as GameObject; //TODO: Pool spitbullets
             bullet.GetComponent<EvilSpitPlantProjectile>().parent = gameObject;
@@ -71,7 +76,8 @@ public class EvilSpitPlantAI : Creature
 
     public void PlayChargeSound()
     {
-        ChargeSound.Post(gameObject);
+        GetComponent<AudioSource>().clip = charge;
+        GetComponent<AudioSource>().Play();
     }
 
     /// <summary>
@@ -137,6 +143,7 @@ public class EvilSpitPlantAI : Creature
 
     public void OnDeathHeadFall()
     {
-        Death_Headfall.Post(this.gameObject);
+        GetComponent<AudioSource>().clip = death;
+        GetComponent<AudioSource>().Play();
     }
 }

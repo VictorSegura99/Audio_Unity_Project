@@ -14,6 +14,10 @@ public class EvilSpitPlantProjectile : MonoBehaviour
     public AK.Wwise.Event ContinuousSoundStart;
     public AK.Wwise.Event ContinuousSoundStop;
 
+    public AudioClip contSoundStart;
+    public AudioClip impactSound;
+    public AudioClip noImpactSound;
+
     [Header("Prefab Links")]
     public GameObject explodeParticles;
     public GameObject deflectParticles;
@@ -54,7 +58,8 @@ public class EvilSpitPlantProjectile : MonoBehaviour
 
     IEnumerator MoveSpitBullet()
     {
-        ContinuousSoundStart.Post(gameObject);
+        GetComponent<AudioSource>().clip = contSoundStart;
+        GetComponent<AudioSource>().Play();
         while (time < duration)
         {
             rb.velocity = transform.forward * speed;
@@ -126,7 +131,7 @@ public class EvilSpitPlantProjectile : MonoBehaviour
         {
             isExploding = true;
 
-            ContinuousSoundStop.Post(gameObject);
+            GetComponent<AudioSource>().Stop();
 
             GetComponent<Collider>().enabled = false;
             time = duration;
@@ -137,11 +142,13 @@ public class EvilSpitPlantProjectile : MonoBehaviour
 
             if (hitSomething)
             {
-                ImpactSound.Post(go.gameObject);
+                GetComponent<AudioSource>().clip = impactSound;
+                GetComponent<AudioSource>().Play();
             }
             else
             {
-                NoImpactSound.Post(go.gameObject);
+                GetComponent<AudioSource>().clip = noImpactSound;
+                GetComponent<AudioSource>().Play();
             }
 
             Destroy(go, 5f);
