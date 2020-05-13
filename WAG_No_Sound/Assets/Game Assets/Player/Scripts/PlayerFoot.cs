@@ -25,6 +25,12 @@ public class PlayerFoot : MonoBehaviour
     {
         m_audio = GetComponents<AudioSource>();
         clipsManager = GetComponentInParent<PlayerAudioClipsManager>();
+
+        AudioManager audioManager = FindObjectOfType<AudioManager>();
+        foreach (AudioSource source in m_audio)
+        {
+            source.outputAudioMixerGroup = audioManager.worldGroup;
+        }
     }
 
     public void PlayFootstepSound()
