@@ -355,7 +355,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -1969406799
     valueGuidInternal: c794e9792f6ff04a9125aab149e882df
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 3a03d83b142ccae46bca93c5ebb06a16,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -363,7 +364,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -1582,7 +1584,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -1590,7 +1593,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -2225,7 +2229,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -2233,7 +2238,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -2779,7 +2785,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -1969406799
     valueGuidInternal: c794e9792f6ff04a9125aab149e882df
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 3a03d83b142ccae46bca93c5ebb06a16,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -2787,7 +2794,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -3004,7 +3012,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -4177,7 +4186,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -8011,7 +8021,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -8019,7 +8030,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -8517,7 +8529,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -8525,7 +8538,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -8976,7 +8990,8 @@ MonoBehaviour:
   mouseDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   mouseUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -9268,7 +9283,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -9276,7 +9292,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -9701,7 +9718,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -9709,7 +9727,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -11709,7 +11728,8 @@ MonoBehaviour:
   TeleportSelectSound:
     idInternal: 750089663
     valueGuidInternal: bcc7ef1718712d4c8f3a46491d0bf0cc
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: a14c770875cd49a4db14ea298285d4f9,
+      type: 2}
   dropdown: {fileID: 114382153989893564}
   destinationKeyPrefix: dropdown_
   teleportParticles: {fileID: 1000012744069254, guid: ae05fed08787949eba948fd152b32a6e,
@@ -11763,7 +11783,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -11771,7 +11792,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -12508,6 +12530,8 @@ GameObject:
   - component: {fileID: 222251120767750998}
   - component: {fileID: 114691058872554878}
   - component: {fileID: 225006498798302566}
+  - component: {fileID: 8105836057253585446}
+  - component: {fileID: 691198451}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -12533,7 +12557,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.765625, y: -0.16796875}
+  m_AnchoredPosition: {x: -3.765686, y: -0.16796875}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &114170609135013886
@@ -12576,15 +12600,18 @@ MonoBehaviour:
   InventoryOpenedSound:
     idInternal: -2095355327
     valueGuidInternal: 4087f0e19ede3940bde2c46b8d8b18f8
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 9ef14225bc87ab34490438e7ad0b64fd,
+      type: 2}
   InventoryClosedSound:
     idInternal: -2016676617
     valueGuidInternal: 205f44b2c6c23246b5961bc3bdf68ae0
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 614f65f6523b96e47a6ecc0175a64fe7,
+      type: 2}
   InventorySelectSound:
     idInternal: -545659536
     valueGuidInternal: b2beb50fb9b5fe42a8bfd6dfbe133f84
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 72441f25879b7994ea7598e120bdf0f1,
+      type: 2}
   opened: {fileID: 8300000, guid: 131145d40b61dda43a9cb3fa828d505d, type: 3}
   closed: {fileID: 8300000, guid: ffd6611cf14d6b6408612db1314ac92e, type: 3}
   select: {fileID: 8300000, guid: 593bc21bb62153843a8bfb305d3dc142, type: 3}
@@ -12639,6 +12666,200 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!82 &8105836057253585446
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267878349590222}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 2517967985235475237, guid: 252f7763b3570844aa8d209f00fab88f,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &691198451
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267878349590222}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 2517967985235475237, guid: 252f7763b3570844aa8d209f00fab88f,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1268793729625738
 GameObject:
   m_ObjectHideFlags: 0
@@ -12777,7 +12998,8 @@ MonoBehaviour:
   RTPC:
     idInternal: -1652528752
     valueGuidInternal: 6506f311d775004b875101114a8b8bf1
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 3732b44040384e7469c381f2c24c448c,
+      type: 2}
 --- !u!114 &114750073526160284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12793,7 +13015,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -12801,7 +13024,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -13324,7 +13548,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -1969406799
     valueGuidInternal: c794e9792f6ff04a9125aab149e882df
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 3a03d83b142ccae46bca93c5ebb06a16,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -13332,7 +13557,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -14343,7 +14569,8 @@ MonoBehaviour:
   RTPC:
     idInternal: 1333239961
     valueGuidInternal: f3cdc9a257094a4ab327cb3d2b99f39f
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 59abe60dd3f125f42ae13cf1ec04ab7e,
+      type: 2}
 --- !u!114 &114618134497236814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14359,7 +14586,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -14367,7 +14595,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -15434,7 +15663,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -15442,7 +15672,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -16005,7 +16236,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -16013,7 +16245,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -16781,7 +17014,8 @@ MonoBehaviour:
   RTPCToSet:
     idInternal: -1347705418
     valueGuidInternal: f1cca88e3765bd45bcbb09b0ead1cc4d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: bcbcf8d456d1f01469a7290d1fd5cf49,
+      type: 2}
   OffValue: 1
   OnValue: 0
 --- !u!114 &114678902517528496
@@ -16799,7 +17033,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -16807,7 +17042,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -18306,7 +18542,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -1969406799
     valueGuidInternal: c794e9792f6ff04a9125aab149e882df
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 3a03d83b142ccae46bca93c5ebb06a16,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -18314,7 +18551,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -19758,7 +19996,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: 18309885
     valueGuidInternal: 7b657bce19f3414c8cd782fbea81ef7a
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e7c46881afe7ee447a87f3f1c0e531ae,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -19766,7 +20005,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -20577,7 +20817,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: 18309885
     valueGuidInternal: 7b657bce19f3414c8cd782fbea81ef7a
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e7c46881afe7ee447a87f3f1c0e531ae,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -20585,7 +20826,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -21796,7 +22038,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.7331543, y: -0.07739258}
+  m_AnchoredPosition: {x: -1.7333984, y: -0.07739258}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222159877966542178
@@ -22859,16 +23101,18 @@ MonoBehaviour:
   MenuRTPC:
     idInternal: 1756231317
     valueGuidInternal: b69dbfa2a555e943837116ce6195e3ad
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 98f2f63964e40df4382807a7f9fe381f,
+      type: 2}
   MenuOpenSound:
     idInternal: -1057777644
     valueGuidInternal: 8573c838f6c51f419e84d9ea1b4d1d98
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: a9ad080a4f626f4479f3103b5f37fe41,
+      type: 2}
   MenuCloseSound:
     idInternal: 1464993479
     valueGuidInternal: 53a7bdee1b4e8043aca2fd53129c027d
-    WwiseObjectReference: {fileID: 0}
-  menuRTPCClip: {fileID: 8300000, guid: c5535aa94a973f24ea5f31ac8cf9b39b, type: 3}
+    WwiseObjectReference: {fileID: 11400000, guid: 3aee99cb50de78640a53333715e97850,
+      type: 2}
   menuOpenClip: {fileID: 8300000, guid: 2bdaf451b7ef7284981a90b6057db56d, type: 3}
   menuCloseClip: {fileID: 8300000, guid: 6abf8deefa82131459130bc0ce1977ee, type: 3}
   ControlsBox: {fileID: 114982243053993680}
@@ -22931,7 +23175,7 @@ AudioSource:
   m_GameObject: {fileID: 1522088180781796}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -5989329600499828916, guid: 252f7763b3570844aa8d209f00fab88f,
+  OutputAudioMixerGroup: {fileID: 2517967985235475237, guid: 252f7763b3570844aa8d209f00fab88f,
     type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
@@ -23259,16 +23503,20 @@ MonoBehaviour:
   Sounds:
   - idInternal: -595828129
     valueGuidInternal: aa4a57c135747d4ba0ee94e4c14c2ce2
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 2c70fd43250c4b74cafb4ac9d59a7261,
+      type: 2}
   - idInternal: 949395292
     valueGuidInternal: 468e1781ef957947ab9e2d5734984ef8
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 25f3c881a3c94694289c8463c14455f8,
+      type: 2}
   - idInternal: 808893336
     valueGuidInternal: cb4cd7edb76aff48be5b3ee357dbd93b
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: c05847ed3e2d35546b11ac1305d8f767,
+      type: 2}
   - idInternal: -1502850244
     valueGuidInternal: 0d843873aa47c749b598cfef41459a42
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: b5878da82638f694591e2de78a5deed9,
+      type: 2}
 --- !u!1 &1527051094917844
 GameObject:
   m_ObjectHideFlags: 0
@@ -24053,7 +24301,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -24061,7 +24310,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -25139,7 +25389,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -25147,7 +25398,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -33208,7 +33460,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -33216,7 +33469,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -33621,7 +33875,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -33629,7 +33884,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -33832,7 +34088,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -33840,7 +34097,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -38369,7 +38627,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -38377,7 +38636,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -38557,8 +38817,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Go find another weapon and then kill some enemies ( \u0361\xB0 \u035C\u0296
-    \u0361\xB0)."
+  m_Text: Quest description
 --- !u!114 &114978266016259346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42291,7 +42550,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -42299,7 +42559,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -43336,7 +43597,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -43344,7 +43606,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -43757,7 +44020,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -43765,7 +44029,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -43997,7 +44262,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: -820400986
     valueGuidInternal: 36bba4f849da5d448477d48bf27f917e
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e84a40da15eeb464cb6a86ef06fa830d,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -44005,7 +44271,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -44400,7 +44667,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: 18309885
     valueGuidInternal: 7b657bce19f3414c8cd782fbea81ef7a
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e7c46881afe7ee447a87f3f1c0e531ae,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -44408,7 +44676,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -45805,7 +46074,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1948683102170264}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -46474,7 +46743,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.0000041127205}
+  m_AnchoredPosition: {x: 0, y: 0.000513585}
   m_SizeDelta: {x: 232.96, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &222643312031218736
@@ -48272,7 +48541,8 @@ MonoBehaviour:
   OnPointerDownSound:
     idInternal: 18309885
     valueGuidInternal: 7b657bce19f3414c8cd782fbea81ef7a
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e7c46881afe7ee447a87f3f1c0e531ae,
+      type: 2}
   OnPointerUpSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
@@ -48280,7 +48550,8 @@ MonoBehaviour:
   OnPointerEnterSound:
     idInternal: 156563189
     valueGuidInternal: 026ff71c8992bb49b568b32e7cb1551d
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1d3f03d0774f7774bbec0266f0af6e54,
+      type: 2}
   OnPointerExitSound:
     idInternal: 0
     valueGuidInternal: 00000000000000000000000000000000
