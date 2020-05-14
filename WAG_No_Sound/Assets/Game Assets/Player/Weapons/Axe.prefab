@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 114239523969736276}
   - component: {fileID: 114764266399354896}
   - component: {fileID: 114640538206512336}
-  - component: {fileID: 930501562213346295}
+  - component: {fileID: 6178329724243070634}
   m_Layer: 10
   m_Name: Axe
   m_TagString: Untagged
@@ -196,7 +196,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000013726145216}
-  m_LocalRotation: {x: 0.6238436, y: 0.66676813, z: 0.24367557, w: 0.32689708}
+  m_LocalRotation: {x: 0.62384194, y: 0.66677094, z: 0.2436742, w: 0.32689553}
   m_LocalPosition: {x: -15.19, y: 51.602, z: 18.146}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -368,6 +368,8 @@ MonoBehaviour:
   pickupParticles: {fileID: 1894904992786936, guid: 987e140e2b762426d936c5cce95fb93a,
     type: 3}
   DestroyOnPickup: 0
+  m_clips:
+  - {fileID: 8300000, guid: 341c5c052008a4c49b34b9d13a78b50c, type: 3}
   pickupAnimationOnInteract: 0
   hoverEffect: 0
   hoverScale: 0.1
@@ -509,7 +511,7 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!82 &930501562213346295
+--- !u!82 &6178329724243070634
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -521,7 +523,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -6756117980034835867, guid: 252f7763b3570844aa8d209f00fab88f,
     type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

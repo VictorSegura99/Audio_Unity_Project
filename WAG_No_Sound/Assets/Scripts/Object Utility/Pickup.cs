@@ -8,11 +8,22 @@
 using System.Collections;
 using UnityEngine.Events;
 
+//[System.Serializable]
+//public enum pickupType
+//{
+//	coin, rune, wwizard, scroll, key
+//};
+
 public class Pickup : MonoBehaviour, IInteractable
 {
 	public GameObject pickupParticles;
 	public bool DestroyOnPickup = false;
-
+	// CUSTOM SOUND -------
+	//[Header("pickup type")]
+	//public pickupType m_pickupType;
+	public AudioClip[] m_clips;
+	//[SerializeField] private AudioSource m_audio;
+	// --------------------
 	[Header("Animation Properties")]
 	public bool pickupAnimationOnInteract = true;
 	public bool hoverEffect = true;
@@ -47,11 +58,12 @@ public class Pickup : MonoBehaviour, IInteractable
 	void Start()
 	{
 		randomOffset = Random.Range(0, 2 * Mathf.PI);
+		//m_audio = GetComponent<AudioSource>();
 	}
 
 	void OnEnable()
 	{
-        PickupType.SetValue(gameObject);
+		PickupType.SetValue(gameObject);
         if (transform.childCount > 0)
 		{
 			Transform T = transform.Find("Outline");
@@ -193,6 +205,9 @@ public class Pickup : MonoBehaviour, IInteractable
 			{
 				
 				PickUpEvent.Post(gameObject);
+				if(m_clips.Length > 0)
+					GameObject.FindGameObjectWithTag("Player").GetComponent<AudioSource>().PlayOneShot(m_clips[Random.Range(0, m_clips.Length)]);
+				//m_audio.PlayOneShot(m_clips[Random.Range(0, m_clips.Length)]);
 			}
 			if (pickupParticles != null)
 			{

@@ -669,9 +669,10 @@ AudioSource:
   m_GameObject: {fileID: 1000011631600178}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -6756117980034835867, guid: 252f7763b3570844aa8d209f00fab88f,
+    type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -716,7 +717,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -6273,6 +6274,8 @@ MonoBehaviour:
   pickupParticles: {fileID: 1894904992786936, guid: 987e140e2b762426d936c5cce95fb93a,
     type: 3}
   DestroyOnPickup: 0
+  m_clips: []
+  m_audio: {fileID: 0}
   pickupAnimationOnInteract: 1
   hoverEffect: 0
   hoverScale: 0.1
@@ -7128,6 +7131,8 @@ MonoBehaviour:
   pickupParticles: {fileID: 1894904992786936, guid: 987e140e2b762426d936c5cce95fb93a,
     type: 3}
   DestroyOnPickup: 0
+  m_clips: []
+  m_audio: {fileID: 0}
   pickupAnimationOnInteract: 1
   hoverEffect: 1
   hoverScale: 0.1
@@ -12917,6 +12922,7 @@ GameObject:
   - component: {fileID: 135479230515063406}
   - component: {fileID: 114505281341404802}
   - component: {fileID: 114269636389249322}
+  - component: {fileID: 284079244}
   m_Layer: 11
   m_Name: Collectable_CrystalPiece
   m_TagString: Untagged
@@ -13028,6 +13034,11 @@ MonoBehaviour:
   pickupParticles: {fileID: 1894904992786936, guid: 987e140e2b762426d936c5cce95fb93a,
     type: 3}
   DestroyOnPickup: 0
+  m_clips:
+  - {fileID: 8300000, guid: 42204a9411424bb4d983f77f373c1f9d, type: 3}
+  - {fileID: 8300000, guid: 60ebdc5f785dabc48b4f5d77583e6278, type: 3}
+  - {fileID: 8300000, guid: fd0f7802efa13834b947377c8c4f9bcf, type: 3}
+  m_audio: {fileID: 0}
   pickupAnimationOnInteract: 1
   hoverEffect: 1
   hoverScale: 0.1
@@ -13075,6 +13086,103 @@ MonoBehaviour:
   Offset: {x: 0, y: 0, z: 0}
   LastTimeUpdated: 0
   SeenBeenInQuestLog: 1
+--- !u!82 &284079244
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384039300349940}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -6756117980034835867, guid: 252f7763b3570844aa8d209f00fab88f,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1424601599184142
 GameObject:
   m_ObjectHideFlags: 0
@@ -17743,6 +17851,8 @@ MonoBehaviour:
   pickupParticles: {fileID: 1894904992786936, guid: 987e140e2b762426d936c5cce95fb93a,
     type: 3}
   DestroyOnPickup: 0
+  m_clips: []
+  m_audio: {fileID: 0}
   pickupAnimationOnInteract: 1
   hoverEffect: 1
   hoverScale: 0.1

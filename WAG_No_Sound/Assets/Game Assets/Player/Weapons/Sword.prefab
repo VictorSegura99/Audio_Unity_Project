@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 114000011760853370}
   - component: {fileID: 114107598022714382}
   - component: {fileID: 114506977971145294}
-  - component: {fileID: 4758971263111184700}
+  - component: {fileID: 6722737182599299820}
   m_Layer: 10
   m_Name: Sword
   m_TagString: Untagged
@@ -114,7 +114,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000013875995892}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -67.59, y: 58.62, z: 4.0362844}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -280,6 +280,8 @@ MonoBehaviour:
   pickupParticles: {fileID: 1894904992786936, guid: 987e140e2b762426d936c5cce95fb93a,
     type: 3}
   DestroyOnPickup: 0
+  m_clips:
+  - {fileID: 8300000, guid: bd14f18b48247d14cb00b4e9fd724d28, type: 3}
   pickupAnimationOnInteract: 0
   hoverEffect: 1
   hoverScale: 0.1
@@ -392,7 +394,7 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!82 &4758971263111184700
+--- !u!82 &6722737182599299820
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -404,7 +406,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -6756117980034835867, guid: 252f7763b3570844aa8d209f00fab88f,
     type: 2}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
